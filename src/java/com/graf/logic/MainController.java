@@ -44,7 +44,7 @@ public class MainController extends HttpServlet {
              todo=new ToDo();
              
         }
-        System.out.println("INAINTE DE NULL POINTER");
+        
        
         if(user == null){
             System.out.println("USer is null");
@@ -103,14 +103,14 @@ public class MainController extends HttpServlet {
                     req.getParameter("lastName"));
             System.out.println(user.getFirstName());
             if (UserDB.checkUser(user.getEmail())) {
-                System.out.println("TE ARUNC BLEA");
+               
                 String message = "User exist,enter another email...";
                 req.setAttribute("message", message);
                 this.getServletContext().getRequestDispatcher("/register.jsp")
                         .forward(req, resp);
-                System.out.println("gata team aruncat");
+                
             } else {
-                System.out.println("PULA CUI ");
+               
                 UserDB.insertUser(user);
             }
             HttpSession session = req.getSession();
@@ -157,7 +157,7 @@ public class MainController extends HttpServlet {
                     for (Cookie cookie : cookies) {
                         if (cookie.getName().equals("emailCookie")) {
                             email = cookie.getValue();
-                            System.out.println("CAUTAM EMAIL " + email);
+                            System.out.println("searching EMAIL " + email);
                             if (UserDB.checkUser(email)) {
                                 user = UserDB.getUser(email);
                                 System.out.println(user.getFirstName());

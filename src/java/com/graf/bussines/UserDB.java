@@ -212,7 +212,7 @@ public class UserDB {
             ps=connection.prepareStatement(query);
             ps.setString(1,String.valueOf(userID));
             set=ps.executeQuery();
-            System.out.println("adaug");
+            System.out.println("adding");
             while(set.next()){
                 toDo.addItem(set.getString(1));
             }
@@ -220,7 +220,7 @@ public class UserDB {
             pool.freeConnection(connection);
             return toDo;
         }catch(SQLException e){
-            System.out.println("Nu am ce aaduaga");
+            System.out.println("nothing to add");
             e.printStackTrace();
             return null;
         }
