@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/home/nich/NetBeansProjects/SimpleToDoList/web/index.jsp</file>
+            <file>file:/home/nich/NetBeansProjects/SimpleToDoList/src/java/com/graf/logic/MainController.java</file>
+            <file>file:/home/nich/NetBeansProjects/SimpleToDoList/web/META-INF/context.xml</file>
+            <file>file:/home/nich/NetBeansProjects/SimpleToDoList/src/java/com/graf/bussines/ConnectionPool.java</file>
+            <file>file:/home/nich/NetBeansProjects/SimpleToDoList/src/java/com/graf/bussines/Item.java</file>
+            <file>file:/home/nich/NetBeansProjects/SimpleToDoList/src/java/com/graf/logic/AddController.java</file>
+            <file>file:/home/nich/NetBeansProjects/SimpleToDoList/src/java/com/graf/util/FileIO.java</file>
+            <file>file:/home/nich/NetBeansProjects/SimpleToDoList/web/redirect.jsp</file>
+            <file>file:/home/nich/NetBeansProjects/SimpleToDoList/web/WEB-INF/web.xml</file>
+            <file>file:/home/nich/NetBeansProjects/SimpleToDoList/src/java/com/graf/bussines/User.java</file>
+            <file>file:/home/nich/NetBeansProjects/SimpleToDoList/src/java/com/graf/bussines/ToDo.java</file>
+            <file>file:/home/nich/NetBeansProjects/SimpleToDoList/web/register.jsp</file>
+            <file>file:/home/nich/NetBeansProjects/SimpleToDoList/src/java/com/graf/bussines/UserDB.java</file>
+        </group>
+    </open-files>
+</project-private>
